@@ -10,4 +10,6 @@ challenge 2: solve 25 LeetCode problems
 
 reward 2: 15 hearthstone packages (worth $19.99)
 
+✔ complete on May 18, 2018
 
+===================================================
