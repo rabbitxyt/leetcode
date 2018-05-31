@@ -1,21 +1,34 @@
-letters = ["c", "f", "j"]
-target = "k"
+# Given a list of sorted characters letters containing only lowercase letters,
+# and given a target letter target, find the smallest element in the list that
+# is larger than the given target.
+#
+# Letters also wrap around. For example, if the target is target = 'z' and
+# letters = ['a', 'b'], the answer is 'a'.
+#
 
 
-letters_to_nums = []
 
-for i in letters:
-    letters_to_nums.append(ord(i))
+class Solution(object):
+    def nextGreatestLetter(self, letters, target):
+        """
+        :type letters: List[str]
+        :type target: str
+        :rtype: str
+        """
 
-target_to_nums = ord(target)
+        letters_to_nums = []
 
+        for i in letters:
+            letters_to_nums.append(ord(i))
 
-flag = False
-for j in letters_to_nums:
-    if j > target_to_nums:
-        flag = True
-        print(chr(j))
-        break
+        target_to_nums = ord(target)
 
-if not flag:
-    print(chr(min(letters_to_nums)))
+        flag = False
+        for j in letters_to_nums:
+            if j > target_to_nums:
+                flag = True
+                return chr(j)
+                break
+
+        if not flag:
+            return chr(min(letters_to_nums))
