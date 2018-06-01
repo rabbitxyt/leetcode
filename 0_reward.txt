@@ -27,3 +27,11 @@ routine work: detasai dictation + 5 LeetCode problems
 reward 4: 7 hearthstone packages (worth $9.99)
 
 ✔ complete on May 29, 2018
+
+===================================================
+
+challenge 4: solve 12 LeetCode problems
+
+reward 5: 7 hearthstone packages (worth $9.99)
+
+✔ complete on Jun 1, 2018
